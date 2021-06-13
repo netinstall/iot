@@ -9,5 +9,5 @@ setup(
     install_requires=[
         "bottle",
         "requests"],
-    package_data={'': ["templates/*"]}
+    package_data={'iot': ["templates/*"]}
 ) 
