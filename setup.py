@@ -9,5 +9,5 @@ setup(
     install_requires=[
         "bottle",
         "requests"],
-    package_data={'web/templates': ["*"]}
+    package_data={"": ["web/templates/*"]}
 ) 
