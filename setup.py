@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
-
-
 setup(
-    name="iot",
-    version="0.1.2",
-    packages=find_packages("."),
-    package_dir={"": "."},
-    scripts=["web/web.py"],
-    description="IOT",
-    install_requires=[
-        "bottle",
-        "requests"],
-    package_data={"": ["web/templates/*"]}
-) 
+    name="mypkg",
+    version="0.1",
+    packages=find_packages("src"),  # include all packages under src
+    package_dir={"": "src"},   # tell distutils packages are under src
+
+    package_data={
+        # If any package contains *.txt files, include them:
+        "": ["*.txt"],
+        # And include any *.dat files found in the "data" subdirectory
+        # of the "mypkg" package, also:
+        "mypkg": ["data/*.dat"],
+    }
+)
