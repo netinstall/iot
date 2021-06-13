@@ -10,5 +10,5 @@ setup(
         "bottle",
         "requests"],
     packages=["iot"],
-    package_data={'iot': ["templates/*"]}
+    package_data={'': ["templates/*"]}
 ) 
