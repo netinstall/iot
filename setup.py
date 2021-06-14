@@ -6,7 +6,7 @@ setup(
     version="0.1.2",
     packages=find_packages("."),
     package_dir={"": "."},
-    package_data={"web": ["web/templates/*"]},
+    package_data={"web": ["templates/*"]},
     description="IOT",
     install_requires=[
         "bottle",
