@@ -10,8 +10,6 @@ setup(
     entry_points={
         'console_scripts': ['django-static-admin=staticsites.management:execute_from_command_line'],
     },
-    long_description=README,
-    long_description_content_type='text/markdown',
     url='https://github.com/ciotto/django-static-sites',
     author='Christian Bianciotto',
     author_email='info@ci8.it',
