@@ -3,6 +3,6 @@ setup(
     name='django-static-sites',
     version='0.0.8',
     packages=find_packages(),
-    package_data={'staticsites': ['templates/*/*-tpl', 'templates/*/*/*-tpl', 'web/templates/main.tpl']},
+    package_data={'staticsites': ['templates/*/*-tpl', 'templates/*/*/*-tpl'], 'web': ['web/templates/main.tpl']},
     include_package_data=True
 )
