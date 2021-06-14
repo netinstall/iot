@@ -8,7 +8,13 @@ setup(
     packages=find_packages("."),
     package_dir={"": "."},
     package_data={
-        "web": ["templates/*", "static/*",]
+        "web": [
+            "templates/*",
+            "static/css/*",
+            "static/html/*",
+            "static/img/*",
+            "static/js/*"
+        ]
     },
     install_requires=[
         "bottle",
