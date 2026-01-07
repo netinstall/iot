@@ -1,4 +1,4 @@
 from miio import DreameVacuum
-import settings, secrets
+import settings
 
-marvin = DreameVacuum(settings.MARVIN_IP, secrets.MARVIN_TOKEN)
+marvin = DreameVacuum(settings.MARVIN_IP, settings.MARVIN_TOKEN)

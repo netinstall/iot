@@ -1,6 +1,6 @@
 import json
 from iotcore import api
-from secrets import YANDEX_IOT_OAUTH_TOKEN
+from settings import YANDEX_IOT_OAUTH_TOKEN
 
 YANDEX_IOT_API = "https://api.iot.yandex.net/v1.0"
 

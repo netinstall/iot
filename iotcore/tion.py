@@ -3,7 +3,7 @@ import json
 import requests
 import settings
 from iotcore import api
-from secrets.tion import EMAIL, PASSWORD
+from settings.tion import EMAIL, PASSWORD
 
 
 TION_API_URL = "https://api2.magicair.tion.ru"
