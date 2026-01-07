@@ -1,0 +1,7 @@
+ipython
+paramiko
+python_miio
+requests
+routeros_api
+suntime
+supervisor

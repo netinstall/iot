@@ -1,0 +1,12 @@
+[Unit]
+Description=IOT Supervisor
+After=network.target data.mount
+
+[Service]
+User = username
+Restart=on-failure
+WorkingDirectory=/opt/iot/
+ExecStart=/opt/iot/python/bin/supervisord
+
+[Install]
+WantedBy=multi-user.target

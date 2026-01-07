@@ -1,0 +1,3 @@
+SUN_LAT = 55.707106
+SUN_LON = 37.572854
+SUN_TZNAME = "Europe/Moscow"

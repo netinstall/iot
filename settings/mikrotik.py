@@ -1,0 +1,3 @@
+MIKROTIK_IP = "192.168.88.1"
+MIKROTIK_USER = "info"
+MIKROTIK_PASSWORD = "Chah3thai5aeTohw"
